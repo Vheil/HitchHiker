@@ -1,0 +1,107 @@
+/*body, html {
+	background: url("hitch.gif") !important;
+}*/
+.navbar, span {
+	background-color: #ffc53a;
+	color: #664500;
+	font-family: 'Acme', sans-serif;
+}
+
+
+div {
+	color: #664500;
+	font-family: 'Acme', sans-serif;
+}
+
+#navName {
+	color: #664500;
+	font-family: 'Acme', sans-serif;
+}
+
+#mainName {
+	color: #664500;
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+	font-size: 88px;
+}
+
+.jumbotron {
+	text-align: center;
+
+}
+
+#form1 {
+	text-align: left;
+
+}
+
+.btn {
+	background-color: #ffc53a;
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	color: #664500;
+	font-size: 38px;
+}
+
+
+#bottomJumbo {
+	margin-bottom: 20%;
+
+}
+
+#insideJumbo {
+	margin-top: 35%;
+}
+
+footer {
+	color: #664500;
+	font-family: 'Acme', sans-serif;
+}
+
+#aboutUs{
+	font-size: 48px;
+}
+
+#abtUs {
+	font-size: 28px;
+}
+
+#verticalLine {
+	height: 500px;
+	width: 2px;
+	border-left: 2px solid black;
+	background-color: none;
+}
+
+.panel-footer {
+	text-align: center;
+}
+
+img {
+	width: 15%;
+	height: 15%;
+	position: center;
+}
+
+#comment {
+	width: cover;
+	height: 100px;
+}
+
+#googleMap{
+	width: 350px;
+	height: 250px;
+
+}
+
+#imgContact {
+	width: 5%;
+	height: 5%;
+	position: center;
+}
+
+#footerJumbo {
+	margin-bottom: 5%;
+}
+
