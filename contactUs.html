@@ -9,7 +9,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="animate.css"> 
 
 </head>
 <body>
@@ -18,9 +19,10 @@
 	  <div class="container-fluid">
 	  	<div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
+	        <span class="fa fa-angle-double-down" id="line"></span>
+	        <span class="icon-bar" id="line"></span>
+	        <span class="icon-bar" id="line"></span>                        
+	        <span class="icon-bar" id="line"></span>                            
 	      </button>
 	      <a class="navbar-brand" href="index.html" target="_self" id="navName">HitchHiker</a>
 	    </div>
@@ -34,11 +36,14 @@
 	  </div>
 	</nav>
 
+	
 	<div class="container">
-		<div class="jumbotron">
-			<h1 id="mainName" style="text-align: center;">HitchHiker</h1>
+		<div class="item animated lightSpeedIn">
+			<h1 id="mainName">HitchHiker</h1>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 				<form action="#" id="form1">
@@ -66,7 +71,7 @@
 				<br>
 				<a href="https://www.facebook.com/" target="_target"><img src="fbsquare.png" id="imgContact"></a>
 				<a href="https://twitter.com/?lang=en" target="_target"><img src="tweeter.png" id="imgContact"></a>
-				<a href="https://www.instagram.com/" target="_self"><img src="instragam.png" id="imgContact"></a>
+				<a href="https://www.instagram.com/" target="_target"><img src="instragam.png" id="imgContact"></a>
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

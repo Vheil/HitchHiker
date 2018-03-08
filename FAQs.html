@@ -9,7 +9,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="animate.css">
 
 </head>
 <body>
@@ -18,9 +19,10 @@
 	  <div class="container-fluid">
 	  	<div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
+	        <span class="fa fa-angle-double-down" id="line"></span>
+	        <span class="icon-bar" id="line"></span>
+	        <span class="icon-bar" id="line"></span>                        
+	        <span class="icon-bar" id="line"></span>                            
 	      </button>
 	      <a class="navbar-brand" href="index.html" target="_self" id="navName">HitchHiker</a>
 	    </div>
@@ -35,11 +37,86 @@
 	</nav>
 
 	<div class="container">
-		<div class="jumbotron">
+		<div class="item animated lightSpeedIn">
+			<h1 id="mainName">HitchHiker</h1>
+		</div>
+	</div>
+
+	<div class="container">
+	  <h2>FREQUENTLY ASKED QUESTION:</h2>
+	    <div class="panel-group" id="accordion">
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+	        <h4 class="panel-title">
+	          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Question no. 1</a>
+	        </h4>
+	      </div>
+	      <div id="collapse1" class="panel-collapse collapse in">
+	        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+	        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+	        <h4 class="panel-title">
+	          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Question no. 2</a>
+	        </h4>
+	      </div>
+	      <div id="collapse2" class="panel-collapse collapse">
+	        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+	        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+	        <h4 class="panel-title">
+	          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Question no. 3</a>
+	        </h4>
+	      </div>
+	      <div id="collapse3" class="panel-collapse collapse">
+	        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+	        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+	        <h4 class="panel-title">
+	          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Question no. 4</a>
+	        </h4>
+	      </div>
+	      <div id="collapse4" class="panel-collapse collapse">
+	        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+	        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading">
+	        <h4 class="panel-title">
+	          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Question no. 5</a>
+	        </h4>
+	      </div>
+	      <div id="collapse5" class="panel-collapse collapse">
+	        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+	        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	      </div>
+	    </div>
+	  </div> 
+	</div>
+
+
+
+
+	<!-- <div class="container">
+		<div class="jumbotron" id="logo">
 			<h1 id="mainName" style="text-align: center;">HitchHiker</h1>
 		</div>
 		<div class="panel panel-default">
-			<div class="panel-heading"><h1>Frequently Asked Questions:</h1></div>	
+			<div class="panel-heading" id="panelHeading"><h1>Frequently Asked Questions:</h1></div>	
 			<div class="panel-body"><h3>1.Question?</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -71,11 +148,20 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 			
+			
+
+
+
+
+
+
+
+
 
 		</div>
 		
 	</div>
-	<br id="footerJumbo">
+ -->	<br id="footerJumbo">
 
 	<hr>
 
